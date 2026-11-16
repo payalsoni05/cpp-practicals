@@ -3,38 +3,87 @@
 #include <string>
 using namespace std;
 
-class Student {
+class Car {
 private:
-    int rollNumber;
-    float marks;
+    string color, model;
+    int year;
+    bool engineStarted;
+    bool moving;
 
 public:
-    string name;
+    // Constructor initializes car details
+    Car(int y, string c, string m) {
+        year = y;
+        color = c;
+        model = m;
+        engineStarted = false;
+        moving = false;
 
-    void getData() {
-        cout << "Enter student name: ";
-        getline(cin, name);
-
-        cout << "Enter roll number: ";
-        cin >> rollNumber;
-
-        cout << "Enter marks: ";
-        cin >> marks;
+        cout << "The car created is " << year << " "
+             << color << " " << model << endl;
     }
 
-    void displayData() {
-        cout << "\n--- STUDENT DETAILS ---" << endl;
-        cout << "Name: " << name << endl;
-        cout << "Roll Number: " << rollNumber << endl;
-        cout << "Marks: " << marks << endl;
+    // Public member function to display car details
+    void display() {
+        cout << "Your car is: " << year << " "
+             << color << " " << model << endl;
+    }
+
+    void start() {
+        engineStarted = true;
+        cout << model << "'s engine starts." << endl;
+    }
+
+    void accelerate() {
+        if (engineStarted) {
+            moving = true;
+            cout << model << "'s moves forward." << endl;
+        }
+    }
+
+    void decelerate() {
+        if (moving) {
+            moving = false;
+            cout << model << "'s slows to a halt." << endl;
+        }
+    }
+
+    void turnOff() {
+        engineStarted = false;
+        cout << model << "'s engine has been turned off." << endl;
+    }
+
+    void stayStill() {
+        cout << model << " stays still. Start the Car!" << endl;
     }
 };
 
 int main() {
-    Student s1;
+    Car car1(2020, "White", "Toyota");
+    Car car2(2020, "Black", "Mahindra");
 
-    s1.getData();
-    s1.displayData();
+    cout << endl;
+
+    car1.display();
+    cout << endl;
+
+    car1.start();
+    car1.accelerate();
+    car1.decelerate();
+    car1.turnOff();
+
+    cout << endl;
+
+    car2.display();
+    car2.stayStill();
+    car2.start();
+    car2.accelerate();
 
     return 0;
 }
+
+
+
+      
+        
+ 
