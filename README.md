@@ -256,3 +256,30 @@ This program writes student records into a CSV file and reads them back. It also
 ### Output
 The program displays student records and the current reading and writing positions in the file.
 
+## Practical 12 – Inventory Management System
+
+**Description:** A console-based Inventory Management System developed using C++.
+
+**Features:**
+- Add new products.
+- Search products by ID.
+- Display all products.
+- Update product quantity.
+- Sell products and manage stock.
+- Save product records using CSV file handling.
+
+**OOP Concepts Used:**
+- Classes and Objects
+- Encapsulation
+- Inheritance
+- Polymorphism
+
+**Other Concepts:**
+- STL Vector
+- Exception Handling
+- File Handling
+
+**Files:**
+- Practical12.cpp
+- inventory.csv
+
