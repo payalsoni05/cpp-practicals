@@ -143,4 +143,25 @@ This program creates an abstract Shape class with a pure virtual area() function
 The program displays the calculated areas of Circle, Rectangle and Triangle.
 
 
+## Practical 7: Function and Operator Overloading
+
+### Aim
+To demonstrate function overloading and operator overloading using a Complex Number class.
+
+### Concepts Used
+- Classes and Objects
+- Function Overloading
+- Operator Overloading
+- Constructors
+- Member Functions
+
+### Source Code
+`Practical7.cpp`
+
+### Description
+This program demonstrates function overloading using two display() functions and operator overloading using the + operator to add two complex numbers.
+
+### Output
+The program displays two complex numbers and their sum.
+
 
