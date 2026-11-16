@@ -33,17 +33,21 @@ This program accepts student name, roll number, marks and attendance as input. I
 ## Practical 2: Classes, Access Specifiers and Member Functions
 
 ### Aim
-To study classes, objects, access specifiers and member functions in C++.
+To understand how classes combine data and behaviour, and how access specifiers protect data.
 
 ### Concepts Used
 - Classes and Objects
 - Private and Public Access Specifiers
-- Data Members
+- Constructors
 - Member Functions
+- Encapsulation
 
 ### Source Code
 `Practical2.cpp`
 
 ### Description
-This program creates a Student class with private data members and public member functions to accept and display student details.
+This program demonstrates a Car class with private data members and public member functions. It creates two car objects, Toyota and Mahindra, and demonstrates their operations such as starting the engine, accelerating, decelerating and turning off the engine.
+
+### Output
+The program displays the details and operations of two car objects.
 
