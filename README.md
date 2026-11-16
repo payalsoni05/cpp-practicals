@@ -164,4 +164,31 @@ This program demonstrates function overloading using two display() functions and
 ### Output
 The program displays two complex numbers and their sum.
 
+## Practical 8: Singleton Design Pattern
+
+### Aim
+To implement the Singleton design pattern in C++ and understand its use case and trade-offs.
+
+### Concepts Used
+- Design Patterns
+- Singleton Pattern
+- Static Data Members
+- Static Member Functions
+- Private Constructor
+
+### Source Code
+`Practical8.cpp`
+
+### Description
+This program implements a Singleton Database class. It ensures that only one instance of the Database class is created and reused whenever getInstance() is called.
+
+### Use Case
+The Singleton pattern can be used in database connections, logging systems and configuration managers.
+
+### Trade-offs
+It avoids multiple object creation but can make testing difficult and may introduce global state. This implementation is not thread-safe.
+
+### Output
+The program confirms that both pointers refer to the same Database instance.
+
 
