@@ -27,3 +27,23 @@ On Windows:
 
 ### Description
 This program accepts student name, roll number, marks and attendance as input. It calculates total marks and average, checks whether the student has passed and displays attendance eligibility.
+
+
+
+## Practical 2: Classes, Access Specifiers and Member Functions
+
+### Aim
+To study classes, objects, access specifiers and member functions in C++.
+
+### Concepts Used
+- Classes and Objects
+- Private and Public Access Specifiers
+- Data Members
+- Member Functions
+
+### Source Code
+`Practical2.cpp`
+
+### Description
+This program creates a Student class with private data members and public member functions to accept and display student details.
+
