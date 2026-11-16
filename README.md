@@ -212,4 +212,26 @@ This program implements a generic Stack class using templates. The same class is
 ### Output
 The program demonstrates stack operations using int, float and string data types.
 
+## Practical 10: Custom Exception Hierarchy
+
+### Aim
+To create a custom exception hierarchy and demonstrate throwing and catching specific exceptions in a banking transaction program.
+
+### Concepts Used
+- Exception Handling
+- Custom Exceptions
+- try and catch Blocks
+- throw Keyword
+- Inheritance
+- Banking Transactions
+
+### Source Code
+`Practical10.cpp`
+
+### Description
+This program creates a custom exception hierarchy for a banking system. It handles insufficient balance and invalid withdrawal amount using separate exception classes.
+
+### Output
+The program displays specific error messages for invalid banking transactions.
+
 
