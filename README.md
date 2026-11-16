@@ -77,3 +77,28 @@ This program demonstrates the Rule of Five using a dynamically allocated integer
 The program displays constructor calls, array elements, move operations and destructor calls.
 
 
+## Practical 4: RAII and Smart Pointers
+
+### Aim
+To understand RAII and automatic memory management using smart pointers.
+
+### Concepts Used
+- RAII
+- std::unique_ptr
+- std::shared_ptr
+- make_unique()
+- make_shared()
+- Reference Counting
+- Automatic Memory Management
+
+### Source Code
+`Practical4.cpp`
+
+### Description
+This program demonstrates unique_ptr and shared_ptr using a Student class. It compares exclusive and shared ownership and shows automatic object destruction when pointers go out of scope.
+
+### Output
+The program displays object creation, reference counts and automatic destruction of objects.
+
+
+
