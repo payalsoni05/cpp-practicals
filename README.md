@@ -121,5 +121,26 @@ This program demonstrates a university management system using multilevel inheri
 ### Output
 The program displays graduate student details entered by the user.
 
+## Practical 6: Abstract Shape Class
+
+### Aim
+To create an abstract Shape class and implement Circle, Rectangle and Triangle using the area() function.
+
+### Concepts Used
+- Abstract Classes
+- Pure Virtual Functions
+- Inheritance
+- Function Overriding
+- Runtime Polymorphism
+
+### Source Code
+`Practical6.cpp`
+
+### Description
+This program creates an abstract Shape class with a pure virtual area() function. Circle, Rectangle and Triangle inherit the Shape class and provide their own area calculations.
+
+### Output
+The program displays the calculated areas of Circle, Rectangle and Triangle.
+
 
 
