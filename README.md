@@ -191,4 +191,25 @@ It avoids multiple object creation but can make testing difficult and may introd
 ### Output
 The program confirms that both pointers refer to the same Database instance.
 
+## Practical 9: Generic Stack Using Templates
+
+### Aim
+To implement a generic Stack class using C++ templates and test it with int, float and string values.
+
+### Concepts Used
+- Class Templates
+- Generic Programming
+- Stack Data Structure
+- Push and Pop Operations
+- STL String
+
+### Source Code
+`Practical9.cpp`
+
+### Description
+This program implements a generic Stack class using templates. The same class is used to store and display integer, floating-point and string values.
+
+### Output
+The program demonstrates stack operations using int, float and string data types.
+
 
