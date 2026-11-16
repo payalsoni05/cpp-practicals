@@ -100,5 +100,26 @@ This program demonstrates unique_ptr and shared_ptr using a Student class. It co
 ### Output
 The program displays object creation, reference counts and automatic destruction of objects.
 
+## Practical 5: University Management Using Inheritance
+
+### Aim
+To implement multilevel inheritance using Person, Student and GraduateStudent classes.
+
+### Concepts Used
+- Inheritance
+- Multilevel Inheritance
+- Base and Derived Classes
+- Protected and Private Members
+- Member Functions
+
+### Source Code
+`Practical5.cpp`
+
+### Description
+This program demonstrates a university management system using multilevel inheritance. Person is the base class, Student inherits Person, and GraduateStudent inherits Student. It displays personal, academic and research details.
+
+### Output
+The program displays graduate student details entered by the user.
+
 
 
