@@ -51,3 +51,29 @@ This program demonstrates a Car class with private data members and public membe
 ### Output
 The program displays the details and operations of two car objects.
 
+
+## Practical 3: Constructors and Rule of Five
+
+### Aim
+To understand object creation, copying, moving and safe management of dynamically allocated memory.
+
+### Concepts Used
+- Default Constructor
+- Parameterized Constructor
+- Copy Constructor
+- Copy Assignment Operator
+- Move Constructor
+- Move Assignment Operator
+- Destructor
+- Rule of Five
+
+### Source Code
+`Practical3.cpp`
+
+### Description
+This program demonstrates the Rule of Five using a dynamically allocated integer array. It implements default, parameterized, copy and move constructors, copy and move assignment operators, and a destructor to manage memory safely.
+
+### Output
+The program displays constructor calls, array elements, move operations and destructor calls.
+
+
