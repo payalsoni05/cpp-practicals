@@ -234,4 +234,25 @@ This program creates a custom exception hierarchy for a banking system. It handl
 ### Output
 The program displays specific error messages for invalid banking transactions.
 
+## Practical 11: CSV Reader and Writer Using fstream
+
+### Aim
+To store and retrieve student records using CSV files and demonstrate seekg(), seekp(), tellg() and tellp().
+
+### Concepts Used
+- File Handling
+- fstream
+- CSV Files
+- File Reading and Writing
+- seekg() and seekp()
+- tellg() and tellp()
+
+### Source Code
+`Practical11.cpp`
+
+### Description
+This program writes student records into a CSV file and reads them back. It also demonstrates file pointer positioning using seekg(), seekp(), tellg() and tellp().
+
+### Output
+The program displays student records and the current reading and writing positions in the file.
 
